@@ -1,10 +1,14 @@
-import contadorOcorrencias from "./contadorOcorrencias";
-import countingDuplicates from "./countingDuplicates";
-import iqTest from "./iq-teste";
+// import contadorOcorrencias from "./contadorOcorrencias";
+// import countingDuplicates from "./countingDuplicates";
+// import iqTest from "./iq-teste";
+
+import arrayDiff from "./arrayDiff";
 
 const main = (): void => {
-  console.log(iqTest("2 4 7 8 10"));
-  console.log(iqTest("1 2 1 1"));
+  console.log(arrayDiff([], [4, 5]));
+  console.log(arrayDiff([3, 4], [3]));
+  console.log(arrayDiff([1, 8, 2], []));
+  console.log(arrayDiff([1, 2, 3], [1, 2]));
 };
 
 main();

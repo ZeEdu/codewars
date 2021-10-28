@@ -7,5 +7,9 @@
 
 // array_diff({1, 2, 2, 2, 3}, 5, {2}, 1, *z) == {1, 3} (z == 2)
 export default function arrayDiff(a: number[], b: number[]): number[] {
-  return [0];
+  const resultArray: number[] = [];
+  a.forEach((i) => {
+    if (!b.includes(i)) resultArray.push(i);
+  });
+  return resultArray;
 }
