@@ -10,8 +10,6 @@
 // import countCharacters from "./countCharacters";
 // import twoSum from "./twoSum";
 
-import { five, seven, times } from "./calcFunctions";
-
 // import int32ToIp from "./int32ToIp";
 
 // import validParentheses from "./validParentheses";
@@ -19,8 +17,6 @@ import { five, seven, times } from "./calcFunctions";
 // import highScore from "./highScore";
 // import isValidWalk from "./isValidWalk";
 
-const main = (): void => {
-  console.log(seven(times(five())));
-};
+const main = (): void => {};
 
 main();
