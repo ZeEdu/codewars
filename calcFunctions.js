@@ -46,7 +46,7 @@ export function times(x) {
 }
 export function dividedBy(x) {
   return function (y) {
-    return y / x;
+    return Math.floor(y / x);
   };
 }
 
