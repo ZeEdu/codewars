@@ -10,16 +10,17 @@
 // import countCharacters from "./countCharacters";
 // import twoSum from "./twoSum";
 
-import isValidWalk from "./isValidWalk";
+import { five, seven, times } from "./calcFunctions";
 
+// import int32ToIp from "./int32ToIp";
+
+// import validParentheses from "./validParentheses";
+
+// import highScore from "./highScore";
+// import isValidWalk from "./isValidWalk";
 
 const main = (): void => {
-  console.log(isValidWalk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']));
-  console.log(!isValidWalk(['w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e']));
-  console.log(!isValidWalk(['w']));
-  console.log(!isValidWalk(['n', 'n', 'n', 's', 'n', 's', 'n', 's', 'n', 's']));
-
-
+  console.log(seven(times(five())));
 };
 
 main();
