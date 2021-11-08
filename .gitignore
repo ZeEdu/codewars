@@ -1,2 +1,2 @@
-dist/arrayDiff.js
-dist/index.js
+dist/
+node_modules/
