@@ -1,6 +1,5 @@
-import { alphabet } from "./utils";
-
-export default function (x: string) {
+/** @param {string} x */
+function highestScore(x) {
   const arrWords = x.toLowerCase().split(" ");
   let highestValue = {
     word: arrWords[0],

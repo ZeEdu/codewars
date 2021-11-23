@@ -1,7 +1,8 @@
-import { alphabet } from "./utils";
+const alphabet = require("./utils");
 
-export default function alphabetPosition(text: string) {
-  const phrase: number[] = [];
+/** @param {string} text */
+function alphabetPosition(text) {
+  const phrase = [];
   for (let i = 0; i < text.length; i++) {
     const currentChar = text.toUpperCase()[i];
     if (alphabet.includes(currentChar)) {

@@ -1,6 +1,7 @@
-export default function countingDuplicates(word: string) {
+/** @param {string} word */
+function countingDuplicates(word) {
   const arrWord = word.toLowerCase().split("");
-  const countingLettersOcurrences: string[] = [];
+  const countingLettersOcurrences = [];
   arrWord.forEach((i) => {
     let qntLetter = 0;
     arrWord.forEach((j) => {
@@ -8,7 +9,7 @@ export default function countingDuplicates(word: string) {
     });
     if (qntLetter > 1) countingLettersOcurrences.push(i);
   });
-  const singleLetters: string[] = [];
+  const singleLetters = [];
   countingLettersOcurrences.forEach((letter) => {
     if (!singleLetters.includes(letter)) {
       singleLetters.push(letter);
