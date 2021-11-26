@@ -1,3 +1,5 @@
+/**
+ * Link to kata: https://www.codewars.com/kata/53697be005f803751e0015aa */
 const vowels = [
   ["a", 1],
   ["e", 2],

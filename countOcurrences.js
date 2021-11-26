@@ -9,6 +9,9 @@ function countOcurrences(word) {
       stringArr.forEach((compLetra) => {
         if (letter === compLetra) quantLetter = quantLetter + 1;
       });
+      if (quantLetter > 1) {
+        console.log(`${letter}: ${quantLetter}`);
+      }
       console.log(`${letter}: ${quantLetter}`);
     }
     letterStack.push(letter);

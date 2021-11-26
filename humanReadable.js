@@ -1,3 +1,5 @@
+// link to kata: https://www.codewars.com/kata/52685f7382004e774f0001f7
+
 /**@param {number} seconds */
 function humanReadable(seconds) {
   const hh = parseInt(seconds / 3600);
@@ -42,11 +44,3 @@ function humanReadable(seconds) {
 //     }`;
 //   }
 // }
-console.log(humanReadable(60));
-console.log(humanReadable(90));
-console.log(humanReadable(3599));
-console.log(humanReadable(3600));
-console.log(humanReadable(45296));
-console.log(humanReadable(86399));
-console.log(humanReadable(86400));
-console.log(humanReadable(359999));

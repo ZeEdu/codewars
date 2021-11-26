@@ -1,4 +1,5 @@
-/** @param {number} n */
+/** link to kata: https://www.codewars.com/kata/573992c724fc289553000e95
+ * @param {number} n */
 function smallest(n) {
   const toArr = n.toString().split("");
   let smallestSoFar = n;

@@ -1,17 +1,16 @@
+// link to kata: https://www.codewars.com/kata/52597aa56021e91c93000cb0
 /**
- * @param {any[]} arr*/
+ * @param {any[]} arr
+ * */
 function moveZeros(arr) {
-  const stack = []
+  const stack = [];
   const zeroStack = [];
-  arr.forEach(el => {
+  arr.forEach((el) => {
     if (el === 0) zeroStack.push(el);
     else stack.push(el);
   });
   return [...stack, ...zeroStack];
 }
-
-
-
 
 console.log(moveZeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1]));
 console.log(moveZeros([false, 1, 0, 1, 2, 0, 1, 3, "a"]));

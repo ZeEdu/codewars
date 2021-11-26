@@ -1,4 +1,6 @@
-/** @param {string} word */
+/**
+ * link to kata: https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
+ * @param {string} word */
 function countingDuplicates(word) {
   const arrWord = word.toLowerCase().split("");
   const countingLettersOcurrences = [];

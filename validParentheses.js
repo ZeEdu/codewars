@@ -1,3 +1,4 @@
+// link to kata: https://www.codewars.com/kata/52774a314c2333f0a7000688
 /** @param {string} parens */
 function validParentheses(parens) {
   const stack = [];

@@ -1,4 +1,6 @@
-/** @param {string} word */
+/**
+ * link to kata: https://www.codewars.com/kata/52efefcbcdf57161d4000091
+ * @param {string} word */
 function countCharacters(word) {
   const countingArray = [];
   const trace = [];

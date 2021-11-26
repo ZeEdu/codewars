@@ -1,12 +1,12 @@
-/**
+/** link to kata: https://www.codewars.com/kata/523f5d21c841566fde000009
  * @param {number[]} a
  * @param {number[]} b
  * */
 function arrayDiff(a, b) {
   const stack = [];
-  a.forEach(val => {
-    if (!b.includes(val)) stack.push(val)
-  })
+  a.forEach((val) => {
+    if (!b.includes(val)) stack.push(val);
+  });
   return stack;
 }
 

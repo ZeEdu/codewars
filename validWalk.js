@@ -1,4 +1,6 @@
-/** @param {string[]} walk */
+/**
+ * link to kata: https://www.codewars.com/kata/54da539698b8a2ad76000228
+ * @param {string[]} walk */
 function isValidWalk(walk) {
   let axisX = 0;
   let axisY = 0;

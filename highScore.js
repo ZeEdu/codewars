@@ -1,4 +1,7 @@
-/** @param {string} x */
+const { alphabet } = require("./utils");
+/**
+ * link to kata: https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/javascript
+ * @param {string} x */
 function highestScore(x) {
   const arrWords = x.toLowerCase().split(" ");
   let highestValue = {
